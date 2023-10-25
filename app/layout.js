@@ -1,8 +1,8 @@
-import { Inter } from 'next/font/google'
+import { Public_Sans } from 'next/font/google'
 import './globals.css'
 import MainNavigation from '@/components/layout/main-navigation'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Public_Sans({ subsets: ['latin'] })
 
 export const metadata = {
   title: '錫儀企業有限公司',
