@@ -2,3 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  /* body {
+    background-color: rgb(107 114 128);
+  } */
+}
+
+@layer components {
+  .main_btn {
+    @apply w-32 h-10 bg-gray-500 text-white rounded-md uppercase m-4;
+  }
+  .section_title {
+    @apply uppercase text-3xl mb-10;
+  }
+}
+
+@layer utilities {
+  .center_btw {
+    @apply flex justify-between items-center;
+  }
+}
