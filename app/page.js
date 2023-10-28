@@ -1,10 +1,10 @@
-import React from "react";
+import React, { Fragment } from "react";
 import Image from "next/image";
 import AboutUs from "@/components/about-us";
 
 const HomPage = () => {
   return (
-    <section>
+    <Fragment>
       <Image
         className="w-full h-auto"
         src="/images/banner/封面.jpg"
@@ -12,8 +12,10 @@ const HomPage = () => {
         width={1920}
         height={1000}
       />
-      <AboutUs />
-    </section>
+      <section className="section">
+        <AboutUs />
+      </section>
+    </Fragment>
   );
 };
 

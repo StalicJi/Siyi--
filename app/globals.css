@@ -13,11 +13,14 @@
     @apply w-32 h-10 bg-gray-500 text-white rounded-md uppercase m-4;
   }
   .section_title {
-    @apply uppercase text-3xl mb-10;
+    @apply uppercase text-3xl;
   }
 }
 
 @layer utilities {
+  .section {
+    @apply ml-300 mr-300 max-xl:ml-250 max-xl:mr-250 max-lg:ml-200 max-lg:mr-200;
+  }
   .center_btw {
     @apply flex justify-between items-center;
   }

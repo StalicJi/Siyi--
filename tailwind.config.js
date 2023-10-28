@@ -13,11 +13,16 @@ module.exports = {
       xs: "375px",
       sm: "480px",
       md: "768px",
-      lg: "976px",
+      lg: "1024px",
       xl: "1440px",
-      xxl: "1536px",
     },
-    extend: {},
+    extend: {
+      margin: {
+        200: "200px",
+        250: "250px",
+        300: "300px",
+      },
+    },
   },
   plugins: [],
 };
