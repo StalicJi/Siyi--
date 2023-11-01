@@ -1,6 +1,7 @@
 import { Public_Sans } from "next/font/google";
 import "./globals.css";
 import MainNavigation from "@/components/layout/main-navigation";
+import Footer from "@/components/layout/footer";
 
 const inter = Public_Sans({ subsets: ["latin"] });
 
@@ -11,10 +12,11 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="zh_Hant">
       <body className={inter.className}>
         <MainNavigation />
         {children}
+        <Footer />
       </body>
     </html>
   );

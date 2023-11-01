@@ -10,18 +10,24 @@
 
 @layer components {
   .main_btn {
-    @apply w-32 h-10 bg-gray-500 text-white rounded-md uppercase m-4;
+    @apply w-32 h-10 text-base bg-gray-700 text-white rounded-md uppercase m-4 hover:bg-rose-700 duration-300 max-lg:text-sm;
   }
   .section_title {
-    @apply uppercase text-3xl;
+    @apply uppercase text-3xl max-lg:text-2xl;
   }
 }
 
 @layer utilities {
   .section {
-    @apply ml-300 mr-300 max-xl:ml-250 max-xl:mr-250 max-lg:ml-200 max-lg:mr-200;
+    @apply mx-300 max-xl:mx-200 max-lg:mx-32 max-md:mx-12 max-sm:mx-8;
+  }
+  .sectionPadding {
+    @apply px-300 max-xl:px-200 max-lg:px-12;
   }
   .center_btw {
     @apply flex justify-between items-center;
+  }
+  .text_hover {
+    @apply hover:text-rose-700;
   }
 }
