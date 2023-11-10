@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { routerItem } from "@/constants/router";
 import Image from "next/image";
@@ -10,13 +10,29 @@ import { CompanyTitle } from "@/document/text";
 const MainNavigation = () => {
   const [showMenu, setShowMenu] = useState(false);
 
+  useEffect(() => {
+    if (showMenu) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "visible";
+    }
+
+    return () => {
+      document.body.style.overflow = "visible";
+    };
+  }, [showMenu]);
+
   const handleToggleMenu = () => {
     setShowMenu(!showMenu);
   };
 
+  const closeMenu = () => {
+    if (showMenu) setShowMenu(!showMenu);
+  };
+
   return (
     <div className=" sticky h-20 w-full center_btw bg-white opacity-95 top-0 px-16 max-md:px-5 max-md:h-16 z-50 shadow-md">
-      <Link href={"/"}>
+      <Link href={"/"} onClick={closeMenu}>
         <div className="flex items-center">
           <Image
             src="/images/client/logo.png"
@@ -34,7 +50,7 @@ const MainNavigation = () => {
         <ul className="grid grid-cols-4 text-base gap-6 max-lg:gap-0 max-md:hidden">
           {routerItem.map((item) => (
             <Link href={item.link} key={item.id}>
-              <li className="text-black text_hover">{item.title}</li>
+              <li className="text-black text_hover ">{item.title}</li>
             </Link>
           ))}
         </ul>
@@ -47,7 +63,7 @@ const MainNavigation = () => {
             <GrMenu className=" w-6 h-6 transition duration-500 ease-in-out" />
           ) : (
             <div>
-              <GrClose className=" w-6 h-6 ttransition duration-500 ease-in-out" />
+              <GrClose className=" w-6 h-6 transition duration-500 ease-in-out" />
             </div>
           )}
         </div>

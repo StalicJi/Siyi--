@@ -1,18 +1,23 @@
 import React from "react";
-import Image from "next/image";
 import { whyText } from "@/document/text";
 import Button from "./button";
+import Link from "next/link";
 
 const AboutUs = () => {
   return (
-    <div className="text-center py-16 max-lg:py-12 max-md:py-10">
+    <div className="text-center pt-16 max-lg:pt-12 max-md:pt-10">
       {whyText.map((why, i) => (
         <div key={i}>
-          <p className="section_title">{why.title}</p>
+          <p className="section_title">
+            選擇錫儀{" "}
+            <span className=" text-2xl text-rose-700">{why.title}</span>
+          </p>
           <p className="my-4 text-lg max-md:text-base">{why.des}</p>
         </div>
       ))}
-      <Button className={"main_btn"}>view more</Button>
+      <Link href="/about-siyi">
+        <Button className={"main_btn"}>view more</Button>
+      </Link>
     </div>
   );
 };

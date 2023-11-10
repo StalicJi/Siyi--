@@ -10,10 +10,10 @@
 
 @layer components {
   .main_btn {
-    @apply w-32 h-10 text-base bg-gray-700 text-white rounded-md uppercase m-4 hover:bg-rose-700 duration-300 max-lg:text-sm;
+    @apply w-36 h-14 text-base bg-gray-700 text-white rounded-md uppercase m-4 hover:bg-rose-700 duration-300 max-lg:text-sm;
   }
   .section_title {
-    @apply uppercase text-3xl max-lg:text-2xl;
+    @apply uppercase text-3xl pb-4 mb-4 border-b-2 max-lg:text-2xl;
   }
 }
 
@@ -22,12 +22,12 @@
     @apply mx-300 max-xl:mx-200 max-lg:mx-32 max-md:mx-12 max-sm:mx-8;
   }
   .sectionPadding {
-    @apply px-300 max-xl:px-200 max-lg:px-12;
+    @apply px-300 max-xl:px-200 max-lg:px-12 max-xs:px-8;
   }
   .center_btw {
     @apply flex justify-between items-center;
   }
   .text_hover {
-    @apply hover:text-rose-700;
+    @apply hover:text-rose-700 hover:underline hover:underline-offset-8 hover:decoration-rose-700 hover:decoration-solid;
   }
 }
