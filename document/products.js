@@ -1,0 +1,128 @@
+export const products = [
+  {
+    id: 1,
+    title: "入口門",
+    imageSrc: [
+      "/images/products/入口門/1.png",
+      "/images/products/入口門/2.png",
+      "/images/products/入口門/3.png",
+      "/images/products/入口門/4.png",
+      "/images/products/入口門/5.png",
+      "/images/products/入口門/6.png",
+      "/images/products/入口門/7.png",
+      "/images/products/入口門/8.png",
+      "/images/products/入口門/9.png",
+    ],
+    navagation: "/products/door",
+  },
+  {
+    id: 2,
+    title: "戶外曬衣架",
+    imageSrc: [
+      "/images/products/戶外曬衣架/1.png",
+      "/images/products/戶外曬衣架/2.png",
+      "/images/products/戶外曬衣架/3.png",
+      "/images/products/戶外曬衣架/4.png",
+    ],
+    navagation: "/products/clotheshorse",
+  },
+  {
+    id: 3,
+    title: "扶手",
+    imageSrc: [
+      "/images/products/扶手/1.png",
+      "/images/products/扶手/2.png",
+      "/images/products/扶手/3.png",
+      "/images/products/扶手/4.png",
+    ],
+    navagation: "/products/armrest",
+  },
+  {
+    id: 4,
+    title: "車道限高指示",
+    imageSrc: [
+      "/images/products/車道限高指示/1.png",
+      "/images/products/車道限高指示/2.png",
+      "/images/products/車道限高指示/3.png",
+    ],
+    navagation: "/products/height-limit-indication",
+  },
+  {
+    id: 5,
+    title: "爬梯",
+    imageSrc: [
+      "/images/products/爬梯/1.png",
+      "/images/products/爬梯/2.png",
+      "/images/products/爬梯/3.png",
+    ],
+    navagation: "/products/ladder",
+  },
+  {
+    id: 6,
+    title: "信箱",
+    imageSrc: ["/images/products/信箱/1.png", "/images/products/信箱/2.png"],
+    navagation: "/products/mailbox",
+  },
+  {
+    id: 7,
+    title: "採光罩",
+    imageSrc: [
+      "/images/products/採光罩/1.png",
+      "/images/products/採光罩/2.png",
+      "/images/products/採光罩/3.png",
+      "/images/products/採光罩/4.png",
+      "/images/products/採光罩/5.png",
+      "/images/products/採光罩/6.png",
+      "/images/products/採光罩/7.png",
+    ],
+    navagation: "/products/skylight-panel",
+  },
+  {
+    id: 8,
+    title: "造型格柵",
+    imageSrc: [
+      "/images/products/造型格柵/1.png",
+      "/images/products/造型格柵/2.png",
+      "/images/products/造型格柵/3.png",
+      "/images/products/造型格柵/4.png",
+      "/images/products/造型格柵/5.png",
+    ],
+    navagation: "/products/grille",
+  },
+  {
+    id: 9,
+    title: "陽台玻璃欄杆",
+    imageSrc: [
+      "/images/products/陽台玻璃欄杆/1.png",
+      "/images/products/陽台玻璃欄杆/2.png",
+      "/images/products/陽台玻璃欄杆/3.png",
+    ],
+    navagation: "/products/balcony",
+  },
+  {
+    id: 10,
+    title: "電錶箱外框",
+    imageSrc: [
+      "/images/products/電錶箱外框/1.png",
+      "/images/products/電錶箱外框/2.png",
+      "/images/products/電錶箱外框/3.png",
+    ],
+    navagation: "/products/outer-frame",
+  },
+  {
+    id: 11,
+    title: "層板架",
+    imageSrc: [
+      "/images/products/層板架/1.png",
+      "/images/products/層板架/2.png",
+      "/images/products/層板架/3.png",
+    ],
+    navagation: "/products/shelf",
+  },
+  {
+    id: 12,
+    title: "鍛造",
+    imageSrc: ["/images/products/鍛造/1.png", "/images/products/鍛造/2.png"],
+    navagation: "/products/forge",
+  },
+];
