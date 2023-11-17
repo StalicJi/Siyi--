@@ -30,4 +30,10 @@
   .text_hover {
     @apply hover:text-rose-700 hover:underline hover:underline-offset-8 hover:decoration-rose-700 hover:decoration-solid;
   }
+  .contact_cnt {
+    @apply flex items-center text-rose-700 text-lg;
+  }
+  .contact_text {
+    @apply ml-4 text-black border-b-2 w-full py-3 flex flex-row max-md:text-base max-md:ml-2 max-sm:text-sm;
+  }
 }

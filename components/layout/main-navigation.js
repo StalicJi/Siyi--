@@ -47,7 +47,7 @@ const MainNavigation = () => {
         </div>
       </Link>
       <div className="w-[30rem] text-end max-lg:w-[23rem] max-md:w-40">
-        <ul className="grid grid-cols-4 text-base gap-6 max-lg:gap-0 max-md:hidden">
+        <ul className="grid grid-cols-5 text-base gap-6 max-lg:gap-0 max-md:hidden text-center">
           {routerItem.map((item) => (
             <Link href={item.link} key={item.id}>
               <li className="text-black text_hover ">{item.title}</li>
@@ -75,7 +75,7 @@ const MainNavigation = () => {
         } transition-transform duration-500 ease-in-out`}
       >
         <div>
-          <ul className="grid grid-row-4 gap-4 py-6">
+          <ul className="grid grid-row-5 gap-4 py-6">
             {routerItem.map((item) => (
               <Link href={item.link} key={item.id}>
                 <li
