@@ -26,6 +26,7 @@ const ContactPage = () => {
         <div className="bg-[#f1f1f1]">
           <div className="text-3xl uppercase text-center pt-20 pb-10 max-lg:pt-12 max-md:text-2xl">
             <p>- contact Us-</p>
+            <p>聯絡我們</p>
           </div>
           {/* Google Map */}
           <div className="grid grid-cols-2 px-32 pb-20 max-xl:px-10 max-lg:flex-col max-lg:flex max-lg:pb-10 max-md:px-2">

@@ -11,7 +11,10 @@ const products = () => {
       </p>
       <div className="w-full h-full grid grid-cols-3 gap-4 mt-4 mb-4">
         <div className="grid col-span-2 gap-4">
-          <div className="relative w-full h-96 cursor-pointer ">
+          <Link
+            href="/products/door"
+            className="relative w-full h-96 cursor-pointer "
+          >
             <Image
               className="w-full h-96 object-cover"
               src="/images/products/入口門/1.png"
@@ -24,8 +27,11 @@ const products = () => {
                 <p className=" text-3xl text-white z-10">入口門造型</p>
               </div>
             </div>
-          </div>
-          <div className="relative w-full h-96 cursor-pointer ">
+          </Link>
+          <Link
+            href="/products/height-limit-indication"
+            className="relative w-full h-96 cursor-pointer "
+          >
             <Image
               className="w-full h-full object-cover"
               src="/images/products/車道限高指示/3.png"
@@ -38,10 +44,13 @@ const products = () => {
                 <p className=" text-3xl text-white z-10">停車場限高指示</p>
               </div>
             </div>
-          </div>
+          </Link>
         </div>
 
-        <div className="relative w-full h-full cursor-pointer ">
+        <Link
+          href="/products/balcony"
+          className="relative w-full h-full cursor-pointer "
+        >
           <Image
             className="w-full h-full object-cover"
             src="/images/products/陽台玻璃欄杆/1.png"
@@ -54,7 +63,7 @@ const products = () => {
               <p className=" text-3xl text-white z-10">陽台玻璃欄杆</p>
             </div>
           </div>
-        </div>
+        </Link>
       </div>
       <Link href="/products">
         <Button className={"main_btn"}>view more</Button>

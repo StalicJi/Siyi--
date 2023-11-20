@@ -10,8 +10,8 @@ const AllProductPage = () => {
       <div>
         <Image
           className="w-full h-96 object-cover brightness-75"
-          src="/images/products/入口門/1.png"
-          alt="錫儀企業有限公司各頁形象照"
+          src="/images/banner/photo1.jpeg"
+          alt=""
           width={1920}
           height={1000}
         />
@@ -23,23 +23,24 @@ const AllProductPage = () => {
         </div>
         <div className="bg-[#f1f1f1]">
           <div className="text-3xl uppercase text-center pt-20 pb-10">
-            <p>- Products -</p>
+            <p className="mb-1">- products -</p>
+            <p>產品項目</p>
           </div>
           <div className="grid grid-cols-3 grid-flow-row gap-5 mx-64 pb-20">
             {products.map((product) => (
               <div
-                className="w-full h-full rounded flex flex-col items-center shadow-xl bg-white relative"
+                className="w-full h-full rounded flex flex-col items-center shadow-xl bg-white"
                 key={product.id}
               >
                 <div className="w-full h-96">
                   <Image
-                    className="w-full h-96 rounded-t object-cover"
+                    className="w-full h-96 rounded-t object-cover brightness-95"
                     src={product.imageSrc[0]}
                     width={1920}
                     height={1000}
                   />
                 </div>
-                <div className="bg-black opacity-20 w-full h-96 rounded absolute top-0" />
+                {/* <div className="bg-black opacity-20 w-full h-96 rounded absolute top-0" /> */}
                 <p className="text-2xl mt-4">{product.title}</p>
                 <Link href={`${product.navagation}`}>
                   <Button className="main_btn">view detail</Button>

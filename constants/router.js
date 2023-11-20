@@ -16,11 +16,6 @@ export const routerItem = [
   },
   {
     id: 4,
-    title: "成果展示",
-    link: "/achievements",
-  },
-  {
-    id: 5,
     title: "聯絡我們",
     link: "/contact",
   },
