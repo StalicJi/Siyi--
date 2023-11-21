@@ -21,14 +21,18 @@ const Door = () => {
           </p>
           <p className="text-xl text-white">負責 | 用心</p>
         </div>
-        <div>
+        <div className="bg-[#f1f1f1]">
           <div className="text-3xl uppercase text-center pt-20 pb-20">
-            <p className="mb-1">成果展示 ach-display - 入門口 -</p>
+            <p className="mb-1">成果展示</p>
+            <p className="mt-2 text-xl text-rose-700">- 入門口 -</p>
           </div>
-          <div className="grid grid-cols-3 gap-4 mx-36 h-full mb-20">
+          <div className="grid grid-cols-3 gap-6 mx-36 h-full pb-20">
             {selectedProduct &&
               selectedProduct.imageSrc.map((image, index) => (
-                <div className="w-full h-96 overflow-hidden border" key={index}>
+                <div
+                  className="w-full h-96 overflow-hidden bg-white shadow"
+                  key={index}
+                >
                   <Image
                     className="h-full object-contain"
                     src={image}

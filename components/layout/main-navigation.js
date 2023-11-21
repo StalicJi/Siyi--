@@ -47,7 +47,7 @@ const MainNavigation = () => {
         </div>
       </Link>
       <div className="w-[30rem] text-end max-lg:w-[23rem] max-md:w-40">
-        <ul className="grid grid-cols-5 text-base gap-6 max-lg:gap-0 max-md:hidden text-center">
+        <ul className="grid grid-cols-4 text-base gap-6 max-lg:gap-0 max-md:hidden text-center">
           {routerItem.map((item) => (
             <Link href={item.link} key={item.id}>
               <li className="text-black text_hover ">{item.title}</li>

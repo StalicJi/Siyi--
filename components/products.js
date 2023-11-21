@@ -9,14 +9,14 @@ const products = () => {
       <p className="section_title">
         產品項目 <span className=" text-2xl text-rose-700">Products</span>
       </p>
-      <div className="w-full h-full grid grid-cols-3 gap-4 mt-4 mb-4">
-        <div className="grid col-span-2 gap-4">
+      <div className="w-full h-full grid grid-cols-3 gap-4 mt-4 mb-4 max-lg:grid-cols-1">
+        <div className="grid col-span-2 gap-4 max-lg:col-span-1">
           <Link
             href="/products/door"
-            className="relative w-full h-96 cursor-pointer "
+            className="relative w-full h-96 cursor-pointer max-[550px]:h-72"
           >
             <Image
-              className="w-full h-96 object-cover"
+              className="w-full h-96 object-cover max-[550px]:h-72"
               src="/images/products/入口門/1.png"
               alt="鋁框入門口"
               width={1920}
@@ -30,7 +30,7 @@ const products = () => {
           </Link>
           <Link
             href="/products/height-limit-indication"
-            className="relative w-full h-96 cursor-pointer "
+            className="relative w-full h-96 cursor-pointer max-[550px]:h-72"
           >
             <Image
               className="w-full h-full object-cover"
@@ -52,7 +52,7 @@ const products = () => {
           className="relative w-full h-full cursor-pointer "
         >
           <Image
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover max-lg:h-96 max-[550px]:h-72"
             src="/images/products/陽台玻璃欄杆/1.png"
             height={1920}
             width={1280}
