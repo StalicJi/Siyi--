@@ -55,7 +55,7 @@ const HomPage = () => {
           <p className="section_title">
             聯絡我們 <span className=" text-2xl text-rose-700">contact</span>
           </p>
-          <p className="text-xl mt-10 max-lg:text-lg">
+          <p className="text-xl mt-10 max-lg:text-lg max-md:text-base">
             若您有任何關於產品的疑問或意見，歡迎與我們洽詢，我們會盡其所能的協助您。
           </p>
         </div>

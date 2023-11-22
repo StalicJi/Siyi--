@@ -11,20 +11,20 @@ const ContactPage = () => {
     <Fragment>
       <div>
         <Image
-          className="w-full h-96 object-cover brightness-75"
+          className="w-full h-96 object-cover brightness-75 max-md:h-56"
           src="/images/banner/Kaohsiung.jpg"
           alt=""
           width={1920}
           height={1000}
         />
         <div className="absolute top-1/4 left-1/2 transform-translate-1/2 -translate-x-1/2 -translate-y-1/2 text-center">
-          <p className="text-3xl text-white mb-4">
+          <p className="text-3xl text-white mb-4 max-md:text-xl">
             持續，為每一位使用者提供優質產品
           </p>
-          <p className="text-xl text-white">負責 | 用心</p>
+          <p className="text-xl text-white max-md:text-lg">負責 | 用心</p>
         </div>
         <div className="bg-[#f1f1f1]">
-          <div className="text-3xl uppercase text-center pt-20 pb-10 max-lg:pt-12 max-md:text-2xl">
+          <div className="text-3xl uppercase text-center pt-20 pb-20 max-md:text-xl max-md:py-10 ">
             <p>- contact Us-</p>
             <p>聯絡我們</p>
           </div>
