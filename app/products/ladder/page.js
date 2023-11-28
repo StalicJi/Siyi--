@@ -7,7 +7,7 @@ const Ladder = () => {
   const selectedProduct = products.find((product) => product.id === 5);
   return (
     <Fragment>
-      <div>
+      <div className=" relative">
         <Image
           className="w-full h-96 object-cover brightness-75 max-md:h-56"
           src="/images/banner/product_detail.jpg"
@@ -15,7 +15,7 @@ const Ladder = () => {
           width={1920}
           height={1000}
         />
-        <div className="absolute top-1/4 left-1/2 transform-translate-1/2 -translate-x-1/2 -translate-y-1/2 text-center">
+        <div className="absolute top-44 left-1/2 transform-translate-1/2 -translate-x-1/2 -translate-y-1/2 text-center max-md:top-28">
           <p className="text-3xl text-white mb-4 max-md:text-xl">
             持續，為每一位使用者提供優質產品
           </p>

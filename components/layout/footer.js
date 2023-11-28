@@ -11,7 +11,7 @@ const footer = () => {
       <div className="w-full h-[25rem] relative flex justify-center max-sm:h-[30rem]">
         <Image
           className=" absolute top-0 h-full object-cover opacity-20"
-          src="/images/products/造型格柵/1封面.png"
+          src="/images/products/造型格柵/1.png"
           alt="錫儀企業有限公司footer"
           width={1920}
           height={1280}
