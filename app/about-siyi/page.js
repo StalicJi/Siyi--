@@ -28,7 +28,7 @@ const AboutUsPage = () => {
           <div className="flex flex-row items-center text-xl justify-center pb-10 max-md:text-base max-md:px-12">
             <TiSpanner className="mr-2 max-md:hidden" />
             <p>
-              專業於不銹鋼門窗、自動門、帷幕牆、扶手鍛造製品、店舖展示架等相關產業。
+              專業於不銹鋼門窗、自動門、帷幕牆、扶手鍛造製品、店舖展示架等相關項目。
             </p>
           </div>
           <div className="h-full shadow-lg px-96 max-xl:px-60 max-[1110px]:px-12 max-xs:px-8">
@@ -42,7 +42,7 @@ const AboutUsPage = () => {
             <div className="w-full bg-white flex justify-center items-center pt-10 pb-16 max-md:flex-col">
               <div>
                 <p className="text-lg mr-4 max-md:text-base max-md:mr-0 max-md:mb-8">
-                  目前正須要具設計天份的您一同加入錫儀的行列，若您有興趣請與我們聯繫。
+                  目前正需要具設計天份的您一同加入錫儀的行列，若您有興趣請與我們聯繫。
                 </p>
               </div>
               <div className=" max-[1540px]:w-52">

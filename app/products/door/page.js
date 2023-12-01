@@ -24,7 +24,7 @@ const Door = () => {
         <div className="bg-[#f1f1f1]">
           <div className="text-3xl uppercase text-center pt-20 pb-20 max-md:text-xl max-lg:py-10">
             <p className="mb-1">成果展示</p>
-            <p className="mt-2 text-xl text-rose-700">- 入門口 -</p>
+            <p className="mt-2 text-xl text-rose-700">- 入口大門 -</p>
           </div>
           <div className="grid grid-cols-3 grid-flow-row gap-5 px-64 pb-20 max-xl:px-40 max-xl:grid-cols-2 max-lg:px-20 max-md:grid-cols-1 max-sm:px-7">
             {selectedProduct &&

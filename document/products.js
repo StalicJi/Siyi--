@@ -1,7 +1,7 @@
 export const products = [
   {
     id: 1,
-    title: "入口門",
+    title: "入口大門",
     imageSrc: [
       "/images/products/入口門/1.png",
       "/images/products/入口門/2.png",
@@ -121,7 +121,7 @@ export const products = [
   },
   {
     id: 12,
-    title: "鍛造",
+    title: "鍛造製品",
     imageSrc: ["/images/products/鍛造/1.png", "/images/products/鍛造/2.png"],
     navagation: "/products/forge",
   },

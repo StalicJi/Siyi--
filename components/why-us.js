@@ -9,7 +9,7 @@ const AboutUs = () => {
       {whyText.map((why, i) => (
         <div key={i}>
           <p className="section_title">
-            選擇錫儀{" "}
+            錫儀金屬{" "}
             <span className=" text-2xl text-rose-700">{why.title}</span>
           </p>
           <p className="my-4 text-lg max-md:text-base">{why.des}</p>
