@@ -1,0 +1,14 @@
+{
+	"apps": [
+		{
+			"name": "siti_website",
+			"script": "node_modules/next/dist/bin/next",
+			"args": "start",
+			"cwd": "./",
+			"exec_mode": "fork",
+			"env":{
+				"PORT":3080
+			}
+		}
+	]
+}

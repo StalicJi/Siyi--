@@ -24,7 +24,7 @@ const products = () => {
             />
             <div className="overlay absolute top-0 left-0 w-full h-full bg-black opacity-0 transition-opacity duration-500 hover:opacity-50">
               <div className="absolute top-1/2 left-1/2 transform-translate-1/2 -translate-x-1/2 -translate-y-1/2">
-                <p className=" text-3xl text-white z-10">入口門造型</p>
+                <p className=" text-3xl text-white z-10">入口大門造型</p>
               </div>
             </div>
           </Link>
